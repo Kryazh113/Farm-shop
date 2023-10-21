@@ -32,10 +32,9 @@ export const TabButton = styled(Button)`
 `;
 
 export const Header = styled(Ul)`
-margin-top: 15px;
-margin-left:-5px;
+  margin-top: 5px;
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 13px;
 `;
 
 export const Content = styled.div`

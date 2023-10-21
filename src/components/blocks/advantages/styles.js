@@ -21,6 +21,7 @@ export const AdvantageList = styled(Ul)`
 
 export const AdvantegeItem = styled(Li)`
   width: 540px;
+  height: 197px;
   margin-top: 20px;
   margin-left: 20px;
   display: inline-block;

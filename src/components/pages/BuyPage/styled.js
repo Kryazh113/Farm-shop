@@ -112,7 +112,7 @@ export const CardUl = styled.ul`
 
 export const ProductSwiper = styled(Swiper)`
   width: 727px;
-
+  margin-left: -10px;
   .swiper-pagination {
     display: none;
   }
