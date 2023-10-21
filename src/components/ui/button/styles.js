@@ -11,7 +11,6 @@ export const StyledButton = styled(Link)`
   text-align: center;
   text-decoration: none;
   line-height: 58px;
-  padding: 0px 24px;
   font-weight: 700;
   font-size: ${(props) => props.theme.fontSizeDefauilt};
   border: none;

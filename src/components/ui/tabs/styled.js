@@ -32,12 +32,15 @@ export const TabButton = styled(Button)`
 `;
 
 export const Header = styled(Ul)`
+margin-top: 15px;
+margin-left:-5px;
   display: flex;
   margin-bottom: 16px;
 `;
 
 export const Content = styled.div`
   font-size: 14px;
+  line-height: 21px;
   text-align: left;
   max-height: ${(props) => props.$maxContentHeiht || "none"};
   overflow-y: overlay;

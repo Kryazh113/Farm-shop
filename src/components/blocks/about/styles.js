@@ -30,7 +30,7 @@ export const StyledSection = styled(Section)`
     position: absolute;
     content: "";
     top: 38px;
-    right: 190px;
+    right: 175px;
     width: 273px;
     height: 607px;
     background-image: url(${farmerImage});

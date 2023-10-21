@@ -3,7 +3,7 @@ import Button from "/src/components/ui/button/button";
 
 export const StyledButton = styled(Button)`
   padding: 0;
-  width: auto;
+  width: 260px;
   min-width: 0;
   display: inline-block;
   background-color: ${(props) => props.theme.colorWhite};

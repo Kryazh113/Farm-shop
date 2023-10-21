@@ -17,9 +17,9 @@ export const ContentWrapper = styled.div`
   box-sizing: border-box;
 `;
 
-export const ProductTitle = styled(Title)`
-  margin-bottom: 15px;
-`;
+// export const ProductTitle = styled(Title)`
+//   margin-bottom: 15px;
+// `;
 
 export const Price = styled.span`
   position: absolute;

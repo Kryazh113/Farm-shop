@@ -15,7 +15,7 @@ export const AdvantageList = styled(Ul)`
   margin-left: -20px;
   list-style: none;
   padding: 0;
-  margin-top: 64px;
+  margin-top: 42px;
   margin-bottom: 64px;
 `;
 

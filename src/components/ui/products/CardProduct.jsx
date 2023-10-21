@@ -1,6 +1,6 @@
 import React from "react";
 import Panel from "/src/components/ui/panel/panel";
-import { TitleSize } from "/src/components/ui/title/title";
+import Title,{ TitleSize } from "/src/components/ui/title/title";
 import { ProductImage, ProductTitle, Price, ContentWrapper } from "./styled";
 import Tabs from "/src/components/ui/tabs/tabs";
 import OptionsList from "/src/components/ui/optionsList/optionsList";
@@ -24,9 +24,9 @@ function CardProduct({ product }) {
     <Panel>
       <ProductImage src={product.src} />
       <ContentWrapper>
-        <ProductTitle as="h3" size={TitleSize.BIG}>
+        <Title level={3}>
           {product.alt}
-        </ProductTitle>
+        </Title>
         <Tabs maxContentHeiht="105px" tabsList={tabsList} />
         <Price>
           {product.price} руб. / {product.weight} гр.
